@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" media="screen" title="no title" charset="utf-8"/>
+	<link rel="stylesheet" href="./styles/styleMain.css" media="screen" title="no title" charset="utf-8"/>
+	<title>FriendLanding</title>
+</head>
+
+<body ng-app="socialApp">
+	<!-- //Requires XMLhttprequest
+	<div ng-include="'./views/header.html'"></div> -->
+  <header class="head">
+		<div class="container-fluid">
+				<div class="row row-centered">
+					<div class="col-xs-2 col-centered">
+						<img src="./images/Icons/Search.svg" alt="Search" />
+					</div>
+					<div class="col-xs-8 col-centered">
+						<p class="lalPFont">Lal's<p>
+					</div>
+					<div class="col-xs-2 col-centered">
+						<img src="./images/Icons/Ham.svg" alt="Menu" />
+					</div>
+				</div>
+			<hr>
+		</div>
+	</header>
+
+	<div id="main"  ng-controller="MainController" class="container-fluid">
+		<!-- // Need XMLhttp for this to work
+		<div ng-view></div> -->
+	   {{test}}
+		{{profile.name}}
+		<div class="landing">
+		    <div class="row row-centered">
+		        <div class="col-xs-7 col-sm-6 createProfile">
+		              <h1>TestFirst</h1>
+                  <h1 class="last">Last</h1>
+                  <p class="tagLine">This is first Test</p>
+                  <p class="bio">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                  </p>
+		        </div>
+		        <div class="col-xs-5 col-sm-6 photo">
+								<img src="https://hd.unsplash.com/photo-1470848051974-964b789cb6fa" class="img-fluid imgPhoto"/>
+						</div>
+		    </div>
+		</div>
+	</div>
+
+  <footer class="foot">
+		<div class="container-fluid">
+				<hr>
+				<div class="row row-centered">
+					<div class="col-xs-3.75 col-centered">
+						<a href="#" class="footView">View Friends</a>
+					</div>
+					<div class="col-xs-3.75 col-centered">
+						<a href="#" class="footFind">Find Friends</a>
+					</div>
+					<div class="col-xs-4.5 col-centered">
+						<a href="#" class="footUpdate">Update Profile</a>
+					</div>
+				</div>
+		</div>
+	</footer>
+
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular.min.js"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.8/angular-route.min.js"></script>
+	<script type="text/javascript" src="./app/app.js"></script>
+	<script type="text/javascript" src="./app/services/profileService.js"></script>
+	<script type="text/javascript" src="./app/controllers/mainController.js"></script>
+</body>
+</html>

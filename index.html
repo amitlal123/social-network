@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" media="screen" title="no title" charset="utf-8"/>
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css">
+	<link rel="stylesheet" href="./styles/styleMain.css" media="screen" title="no title" charset="utf-8"/>
+	<title>My Facebook</title>
+</head>
+
+<body ng-app="socialApp">
+	<!-- //Requires XMLhttprequest
+	<div ng-include="'./views/header.html'"></div> -->
+	<header class="head">
+		<div class="container-fluid">
+				<div class="row row-centered">
+					<div class="col-xs-2 col-centered">
+						<img src="./images/Icons/Search.svg" alt="Search" />
+					</div>
+					<div class="col-xs-8 col-centered">
+						<h1 class="lalPFont">Welcome to My Social Network<h1>
+					</div>
+					<div class="col-xs-2 col-centered">
+						<img src="./images/Icons/Ham.svg" alt="Menu" />
+					</div>
+				</div>
+			<hr>
+		</div>
+	</header>
+
+		<ui-view></ui-view>
+
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular.min.js"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.3.1/angular-ui-router.min.js"></script>
+	<script type="text/javascript" src="./app/app.js"></script>
+	<script type="text/javascript" src="./app/services/profileService.js"></script>
+	<script type="text/javascript" src="./app/controllers/homeCtrl.js"></script>
+	<script type="text/javascript" src="./app/controllers/createProfileCtrl.js"></script>
+	<script type="text/javascript" src="./app/controllers/landingCtrl.js"></script>
+	<script type="text/javascript" src="./app/controllers/updateCtrl.js"></script>
+	<!-- <script type="text/javascript" src="./app/controllers/mainController.js"></script> -->
+</body>
+</html>

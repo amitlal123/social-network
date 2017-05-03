@@ -1,0 +1,31 @@
+<!-- <div>
+  {{test}}
+</div> -->
+
+<!-- {{profile.name}} -->
+<div class="container-fluid initial">
+    <div class="row row-centered">
+        <div class="col-xs-8 col-sm-6 createProfile">
+            <form>
+              <p>Welcome to <span>Lal's</span> Social</p>
+              <p>Add Some Info So Friends Can Find You</p>
+              <input type="text" name="fullname" placeholder="Full Name" class="formInputAlign" ng-model="profileVM.profile.name">
+              <br>
+              <input type="text" name="tagline" placeholder="Tagline" ng-model="profileVM.profile.tagLine">
+              <br>
+              <input type="text" name="imageurl" placeholder="Profile Image Url" ng-model="profileVM.imageUrl">
+              <br>
+              <textarea name="bio" placeholder="Bio" ng-model="profileVM.profile.bio"></textarea>
+              <br>
+              <button type="submit" name="savebutton" ng-click="profileVM.saveProfile()">Save Changes</button>
+            </form>
+        </div>
+        <div class="col-xs-4 col-sm-6 photo">
+            <img ng-src="{{profileVM.imageUrl}}" class="img-fluid imgPhoto"/>
+        </div>
+    </div>
+</div>
+
+
+
+<!-- https://hd.unsplash.com/photo-1470848051974-964b789cb6fa -->

@@ -1,0 +1,21 @@
+<div class="container-fluid getStarted">
+  <div class="row row-centered">
+    <div class="col-xs-12">
+      <button ui-sref="create" class="btn btn-primary getStartedBtn">Get Started</button>
+    </div>
+    <div class="col-xs-12">
+      <h4 class="getStartedAlready">Already have a Profile?</h4>
+    </div>
+      <div class="form-group getStartedForm">
+        <div class="col-xs-6 col-centered getStartednameHead">
+          <h4><small>Enter Full Name:<small></h4>
+        </div>
+        <div class="col-xs-6 col-centered getStartednameInput">
+          <input type="text" name="fullname" placeholder="Full Name" class="form-control" ng-model="homeVM.name">
+        </div>
+        <div class="col-xs-6 col-centered">
+          <button type="submit" name="Get Profile" class="btn btn-primary getStartedProfileBtn" ng-click="homeVM.getProfile()">Get My Profile</button>
+        </div>
+      </div>
+  </div>
+</div>

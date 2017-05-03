@@ -1,0 +1,462 @@
+@import url(https://fonts.googleapis.com/css?family=Lora);
+.head{
+  padding: 2rem;
+}
+
+
+.getStarted{
+  /*text-align: center;*/
+}
+
+.getStartedBtn{
+  margin-bottom: 20px;
+}
+
+.getStartednameHead {
+  /*margin-bottom: 15px;*/
+}
+.getStartednameInput {
+  margin-left: -30px;
+}
+
+.getStartedProfileBtn {
+  margin-top: 20px;
+}
+.lalPFont{
+  font: Lora-Regular;
+  font-size: 16.8px;
+  line-height: 21px;
+  color: #272727;
+}
+
+.row-centered{
+  text-align: center;
+}
+
+.col-centered{
+  display: inline-block;
+  float: none;
+  /*text-align: left;*/
+  margin-right: -4px;
+}
+
+.foot{
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+}
+
+.foot a{
+  font: Lora-Regular;
+  color: #272727;
+}
+
+.footView{
+  margin-left: -50px;
+}
+
+.footFind{
+  margin-left: 25px;
+  margin-right: 25px;
+}
+
+.footUpdate{
+  margin-right: -50px;
+}
+.footUpdate:visited{
+  text-decoration: underline;
+}
+.createProfile p {
+  font: Lora-Regular;
+  font-size: 12.07px;
+  line-height: 14px;
+  color: #232323;
+  margin-bottom: 5px;
+}
+
+.createProfile input{
+  border: .5px solid #ECECEC;
+  margin-bottom: 10px;
+  margin-right: 20px;
+  width: 175px;
+}
+
+.createProfile textarea{
+  border: .5px solid #ECECEC;
+  margin-bottom: 20px;
+  margin-right: 15px;
+  width: 175px;
+  height: 175px;
+}
+
+.createProfile button{
+  border: .5px solid #777777;
+  color: #777777;
+  background-color: #00FFE9;
+  width: 175px;
+}
+
+.imgPhoto{
+  max-width: 100%;
+}
+
+.viewFriend .imageFriends:hover img{
+  opacity: 0.3;
+}
+
+.friend{
+  position: relative;
+  display: flex;
+}
+
+.displayProfile{
+float: left;
+}
+
+.viewFriend{
+  float: right;
+}
+
+.displayProfile p {
+  font: Lora-Regular;
+  font-size: 12.07px;
+  line-height: 14px;
+  color: #232323;
+  margin-bottom: 5px;
+  text-align: justify;
+}
+.photo{
+  /*border: .5px solid red;*/
+  /*width : 100px;
+  height: 100px;*/
+}
+
+
+.landing h1{
+  font: Lora-Regular !important;
+  font-size: 38.4px;
+  line-height: 46px;
+  color: #272727;
+}
+
+.landing p{
+  font: OpenSans;
+  font-size: 10.2px;
+  line-height: 14px;
+  color: #000000;
+  text-align: justify;
+}
+
+.update h1{
+  font: Lora-Regular !important;
+  font-size: 38.4px;
+  line-height: 46px;
+  color: #272727;
+}
+
+.update p{
+  font: OpenSans;
+  font-size: 10.2px;
+  line-height: 14px;
+  color: #000000;
+  text-align: justify;
+}
+
+.optional{
+  display: none;
+}
+
+.btnSettings{
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+.updateForm{
+  margin-left: 20px;
+}
+
+.viewFriend button.sorter{
+  border: 1px solid #D7D7D7;
+  background-color: transparent;
+  margin-bottom: 10px;
+  margin-right: 50px;
+}
+
+.viewFriend input.inputSearch{
+  border: 1px solid #D7D7D7;
+  margin-bottom: 10px;
+  width:90%;
+}
+
+.viewFriend .imageFriends{
+  position: relative;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-left: 10px;
+  margin-right: -10px;
+}
+.viewFriend .imageFriends .overlayImgBtn{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  color: white;
+  text-align: center;
+}
+
+.viewFriend .imageFriends .overlayImgBtn::before{
+  content: ' ';
+  display: block;
+  height: 20%;
+}
+
+.viewFriend .imageFriends .overlayImgBtn .viewFriendBtn{
+  border: 1px solid white;
+  background-color: transparent;
+  background-repeat: no-repeat;
+}
+
+@media (min-width: 375px) {
+
+  .footView{
+    margin-left: -72px;
+  }
+
+  .footFind{
+    margin-left: 36px;
+    margin-right: 36px;
+  }
+
+  .footUpdate{
+    margin-right: -72px;
+  }
+
+  .createProfile p{
+    margin-bottom: 15px;
+  }
+  .createProfile input{
+    margin-bottom: 10px;
+    margin-right: 40px;
+    width: 175px;
+  }
+
+  .createProfile textarea{
+    margin-bottom: 20px;
+    margin-right: 40px;
+    width: 175px;
+    height: 175px;
+  }
+
+  .createProfile button{
+    width: 175px;
+    margin-right: 40px;
+  }
+  .displayProfile p{
+    margin-bottom: 15px;
+  }
+  .optional{
+    display: block;
+  }
+
+  .btnSettings{
+    margin-top: 30px;
+  }
+
+  .viewFriend button.sorter{
+    margin-top: 20px;
+    margin-left: 30px;
+  }
+
+  .viewFriend input.inputSearch{
+    margin-left: 20px;
+    margin-right: -10px;
+  }
+
+  .viewFriend .imageFriends .overlayImgBtn::before{
+    height: 5%;
+  }
+
+}
+
+@media (min-width: 768px) {
+
+  .getStartednameInput {
+    margin-left: -120px;
+    width: 250px;
+  }
+
+.head{
+    padding: 3rem;
+  }
+
+.foot{
+  padding: 4rem;
+}
+
+  .footView{
+    margin-left: -240px;
+  }
+
+  .footFind{
+    margin-left: 120px;
+    margin-right: 120px;
+  }
+
+  .footUpdate{
+    margin-right: -240px;
+  }
+
+  .createProfile p{
+    margin-bottom: 15px;
+    font-size: 16px;
+  }
+  .createProfile input{
+    margin-bottom: 10px;
+    margin-left: 30px;
+    width: 300px;
+  }
+
+  .createProfile textarea{
+    margin-bottom: 40px;
+    margin-left: 30px;
+    width: 300px;
+    height: 300px;
+  }
+
+  .createProfile button{
+    width: 300px;
+    height: 30px;
+    margin-left: 30px;
+  }
+  .imgPhoto{
+    max-width: 90%;
+  }
+
+  .displayProfile p{
+    margin-bottom: 15px;
+    font-size: 16px;
+    line-height: 20px;
+  }
+
+  .landing p{
+    line-height: 20px;
+  }
+
+  .update p{
+    line-height: 20px;
+  }
+
+  .btnSettings{
+    margin-left: 50px !important;
+  }
+
+  .viewFriend .inputDiv{
+    margin-left: 20px;
+  }
+
+  .viewFriend .searchDiv{
+    margin-left: -40px;
+  }
+
+  .viewFriend button.sorter{
+    width: 30%;
+    margin-bottom: 20px;
+  }
+
+  .displayProfile {
+    margin-right: 50px;
+    margin-left: 50px;
+  }
+  .viewFriend .imageFriends .overlayImgBtn::before{
+    height: 20%;
+  }
+}
+
+@media (min-width: 992px) {
+
+  .getStartednameInput {
+    margin-left: -250px;
+    width: 250px;
+  }
+ .getStartedProfileBtn {
+   margin-top: 0;
+   margin-right: 500px;
+ }
+
+ .getStartedAlready{
+   margin-bottom: 50px;
+ }
+
+ .getStartedForm {
+   margin-left: 250px;
+ }
+  .footView{
+    margin-left: -600px;
+  }
+
+  .footFind{
+    margin-left: 300px;
+    margin-right: 300px;
+  }
+
+  .footUpdate{
+    margin-right: -600px;
+  }
+
+  .createProfile input{
+    margin-bottom: 15px;
+    margin-left: 50px;
+    width: 300px;
+  }
+
+  .createProfile textarea{
+    margin-bottom: 40px;
+    margin-left: 50px;
+    width: 300px;
+    height: 300px;
+  }
+
+  .createProfile button{
+    width: 300px;
+    height: 30px;
+    margin-left: 50px;
+  }
+  .landing p{
+    line-height: 20px;
+  }
+
+  .update p{
+    line-height: 20px;
+  }
+  .btnSettings{
+    margin-left: 60px !important;
+  }
+
+  .imgPhoto{
+    max-width: 75%;
+  }
+
+  .displayProfile {
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+
+  .viewFriend input.inputSearch{
+    width:40%;
+    margin-left: 50px;
+    margin-right: -90px;
+  }
+
+.viewFriend img.searchImg{
+  margin-right: 270px;
+  margin-left: -270px;
+}
+
+.viewFriend button.sorter{
+  width: 15%;
+}
+
+}

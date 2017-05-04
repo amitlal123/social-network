@@ -1,6 +1,6 @@
 angular.module('socialApp', ['ui.router'])
 .config(function($urlRouterProvider, $stateProvider){
-
+  // Routing with State Provider
     $stateProvider
       .state('home',{
         url: '/',

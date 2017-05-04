@@ -17,7 +17,7 @@ appProfileService.service('ProfileService', function(){
     }
     return randomNum;
   }
-//Re-written
+//Re-written Create Profile
   this.createProfile = function(profile) {
     profile.id = generateId();
     profiles.push(profile);
@@ -35,6 +35,8 @@ appProfileService.service('ProfileService', function(){
     }
     return profile;
   }
+
+  // Update Profile
   this.updateProfile = function(profile) {
     for (var i = 0; i < profiles.length; i++) {
       if(profiles[i].id === profile.id) {
